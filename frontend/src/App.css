@@ -1,0 +1,38 @@
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Remove default margin/padding from App */
+.App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.App main {
+    flex: 1;
+}
+
+/* Custom button hover effects */
+button {
+    transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.2s ease;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Card hover effects */
+.hover\:shadow-lg {
+    transition: box-shadow 0.3s ease;
+}
+
+.hover\:shadow-xl {
+    transition: box-shadow 0.3s ease;
+}
+
+/* Link transitions */
+a {
+    transition: color 0.2s ease;
+}
