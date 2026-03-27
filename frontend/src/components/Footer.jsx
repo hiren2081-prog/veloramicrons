@@ -22,25 +22,25 @@ const Footer = () => {
               Premium Calcium Carbonate (CaCO₃) manufacturer based in Morbi, Gujarat - delivering quality and reliability to industries across India.
             </p>
             <div className="flex gap-3">
-              <a 
-                href="#" 
+              <a
+                href="#"
                 className="bg-slate-700 p-2 rounded-full hover:bg-blue-600 transition-colors"
-                aria-label="Facebook"
-              >
+                aria-label="Facebook">
+
                 <Facebook className="w-5 h-5" />
               </a>
-              <a 
-                href="#" 
+              <a
+                href="#"
                 className="bg-slate-700 p-2 rounded-full hover:bg-blue-600 transition-colors"
-                aria-label="LinkedIn"
-              >
+                aria-label="LinkedIn">
+
                 <Linkedin className="w-5 h-5" />
               </a>
-              <a 
-                href="#" 
+              <a
+                href="#"
                 className="bg-slate-700 p-2 rounded-full hover:bg-blue-600 transition-colors"
-                aria-label="Twitter"
-              >
+                aria-label="Twitter">
+
                 <Twitter className="w-5 h-5" />
               </a>
             </div>
@@ -115,15 +115,15 @@ const Footer = () => {
               </li>
               <li className="flex items-start gap-3">
                 <Mail className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" />
-                <a href="mailto:info@veloramicrons.com" className="text-slate-300 hover:text-blue-400 transition-colors">
-                  info@veloramicrons.com
+                <a href="mailto:info@veloramicrons.com" className="text-slate-300 hover:text-blue-400 transition-colors">veloramicrons@gmail.com
+
                 </a>
               </li>
               <li>
                 <button
                   onClick={handleWhatsAppClick}
-                  className="flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg transition-colors mt-2"
-                >
+                  className="flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg transition-colors mt-2">
+
                   <MessageCircle className="w-4 h-4" />
                   Chat on WhatsApp
                 </button>
@@ -149,8 +149,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>);
+
 };
 
 export default Footer;
