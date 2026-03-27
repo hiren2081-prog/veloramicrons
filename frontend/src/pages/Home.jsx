@@ -18,10 +18,10 @@ const Home = () => {
       <section className="bg-gradient-to-br from-blue-50 to-slate-100 py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center max-w-4xl mx-auto">
-            <h1 className="text-5xl font-bold text-slate-800 mb-6 leading-tight">
+            <h1 className="!font-bold !text-base mb-6 text-slate-800">
               Premium Calcium Carbonate (CaCO₃) Manufacturer in Morbi
             </h1>
-            <p className="text-xl text-slate-600 mb-8 leading-relaxed">
+            <p className="!text-base mb-8 text-slate-600">
               Delivering high-purity, micronized & coated calcium carbonate for ceramic, plastic & industrial applications
             </p>
             
@@ -41,10 +41,10 @@ const Home = () => {
             </div>
 
             <div className="flex flex-wrap gap-4 justify-center">
-              <Button 
+              <Button
                 onClick={handleWhatsAppClick}
-                className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-lg h-auto"
-              >
+                className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-lg h-auto">
+
                 <MessageCircle className="mr-2 w-5 h-5" />
                 Get Best Price on WhatsApp
               </Button>
@@ -215,10 +215,10 @@ const Home = () => {
             Contact us today for competitive bulk pricing & product samples
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <Button 
+            <Button
               onClick={handleWhatsAppClick}
-              className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-lg h-auto"
-            >
+              className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-lg h-auto">
+
               <MessageCircle className="mr-2 w-5 h-5" />
               WhatsApp Us Now
             </Button>
@@ -231,8 +231,8 @@ const Home = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>);
+
 };
 
 export default Home;
