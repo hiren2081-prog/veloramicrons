@@ -32,13 +32,13 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
+
     // Mock form submission
     console.log('Form submitted:', formData);
-    
+
     toast({
       title: "Inquiry Sent Successfully!",
-      description: "We'll get back to you within 24 hours.",
+      description: "We'll get back to you within 24 hours."
     });
 
     // Reset form
@@ -123,8 +123,8 @@ const Contact = () => {
                       </div>
                       <div>
                         <h3 className="font-bold text-slate-800 mb-1">Email</h3>
-                        <a href="mailto:info@veloramicrons.com" className="text-blue-600 hover:underline">
-                          info@veloramicrons.com
+                        <a href="mailto:info@veloramicrons.com" className="text-blue-600 hover:underline">veloramicrons@gmail.com
+
                         </a>
                         <p className="text-sm text-slate-500 mt-1">
                           We'll respond within 24 hours
@@ -162,10 +162,10 @@ const Contact = () => {
                   <p className="mb-4 text-green-100">
                     Get instant responses to your queries. Chat with us directly!
                   </p>
-                  <Button 
+                  <Button
                     onClick={handleWhatsAppClick}
-                    className="bg-white text-green-600 hover:bg-green-50 w-full"
-                  >
+                    className="bg-white text-green-600 hover:bg-green-50 w-full">
+
                     <MessageCircle className="mr-2 w-5 h-5" />
                     Start WhatsApp Chat
                   </Button>
@@ -194,8 +194,8 @@ const Contact = () => {
                         value={formData.name}
                         onChange={handleChange}
                         placeholder="Enter your full name"
-                        className="w-full"
-                      />
+                        className="w-full" />
+
                     </div>
 
                     <div>
@@ -210,8 +210,8 @@ const Contact = () => {
                         value={formData.company}
                         onChange={handleChange}
                         placeholder="Your company name"
-                        className="w-full"
-                      />
+                        className="w-full" />
+
                     </div>
 
                     <div>
@@ -226,8 +226,8 @@ const Contact = () => {
                         value={formData.email}
                         onChange={handleChange}
                         placeholder="your@email.com"
-                        className="w-full"
-                      />
+                        className="w-full" />
+
                     </div>
 
                     <div>
@@ -242,8 +242,8 @@ const Contact = () => {
                         value={formData.phone}
                         onChange={handleChange}
                         placeholder="+91 XXXXXXXXXX"
-                        className="w-full"
-                      />
+                        className="w-full" />
+
                     </div>
 
                     <div>
@@ -257,14 +257,14 @@ const Contact = () => {
                         value={formData.message}
                         onChange={handleChange}
                         placeholder="Tell us about your requirements, quantity needed, specifications, etc."
-                        className="w-full min-h-32"
-                      />
+                        className="w-full min-h-32" />
+
                     </div>
 
-                    <Button 
-                      type="submit" 
-                      className="w-full bg-blue-600 hover:bg-blue-700 text-white py-6 text-lg"
-                    >
+                    <Button
+                      type="submit"
+                      className="w-full bg-blue-600 hover:bg-blue-700 text-white py-6 text-lg">
+
                       <Send className="mr-2 w-5 h-5" />
                       Send Inquiry
                     </Button>
@@ -287,10 +287,10 @@ const Contact = () => {
             Contact us for competitive pricing, technical specifications, and product samples
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
-            <Button 
+            <Button
               onClick={handleWhatsAppClick}
-              className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-lg h-auto"
-            >
+              className="bg-green-600 hover:bg-green-700 text-white px-8 py-6 text-lg h-auto">
+
               <MessageCircle className="mr-2 w-5 h-5" />
               WhatsApp Now
             </Button>
@@ -303,8 +303,8 @@ const Contact = () => {
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>);
+
 };
 
 export default Contact;
