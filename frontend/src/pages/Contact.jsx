@@ -85,11 +85,11 @@ const Contact = () => {
                       </div>
                       <div>
                         <h3 className="font-bold text-slate-800 mb-1">Location</h3>
-                        <p className="text-slate-600">
-                          Morbi, Gujarat, India
-                        </p>
+                        <p className="text-slate-600">S No  340 , KHOKHRA HANUMAN ROAD,
+Bela -Rangpar ,MORBI-363642
+GUJRAT (IN)</p>
                         <p className="text-sm text-slate-500 mt-1">
-                          (Heart of India's ceramic manufacturing hub)
+
                         </p>
                       </div>
                     </div>
