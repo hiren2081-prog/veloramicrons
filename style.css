@@ -199,7 +199,12 @@ p { color: var(--muted); line-height: 1.75; }
 
 /* ===== PRODUCTS ===== */
 .products { background: var(--cream); }
-.products-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.products-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 420px));
+  justify-content: center;
+  gap: 30px;
+}
 .prod-card {
   background: var(--white);
   border: 1.5px solid var(--border);
